@@ -13,10 +13,17 @@ spring:
   messages:
     basename: messages
 
-  security:
-    user:
-      name: username
-      password: passw0rd
+#  security:
+#    user:
+#      name: username
+#      password: passw0rd
+
+  jpa:
+    show-sql: true
+
+  h2:
+    console:
+      enabled: true
 
 management:
   endpoints:
